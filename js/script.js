@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".articles__items").slick({mobileFirst:!0,infinite:!0,slidesToShow:1,slidesToScroll:1,responsive:[{breakpoint:1200,settings:{slidesToShow:3,slidesToScroll:3}}]})}),$(".arrows_left").on("click",function(){$(".slick-prev").click()}),$(".arrows_right").on("click",function(){$(".slick-next").click()});
